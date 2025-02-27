@@ -39,6 +39,8 @@ public class LevelParser : MonoBehaviour
     public GameObject brickPrefab;
     public GameObject questionBoxPrefab;
     public GameObject stonePrefab;
+    public GameObject avoidPrefab;
+    public GameObject finishPrefab;
 
     // --------------------------------------------------------------------------
     void Start()
@@ -100,6 +102,14 @@ public class LevelParser : MonoBehaviour
                 else if (letters[col] == 's')
                 {
                     nouveau = stonePrefab;
+                }
+                else if (letters[col] == '!')
+                {
+                    nouveau = avoidPrefab;
+                }
+                else if (letters[col] == 'm')
+                {
+                    nouveau = finishPrefab;
                 }
 
                 if (nouveau != null)

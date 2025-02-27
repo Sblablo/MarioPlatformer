@@ -25,10 +25,12 @@ public class DestroyBrick : MonoBehaviour
             if (rayHitSomething && screenHitInfo.transform.gameObject.CompareTag("Brick"))
             {
                 Destroy(screenHitInfo.transform.gameObject);
+                _gamemanager.addPoints(100);
             }
             else if (rayHitSomething && screenHitInfo.transform.gameObject.CompareTag("QuestionBlock"))
             {
-                _gamemanager.addCoin();
+                _gamemanager.addCoin(1);
+                _gamemanager.addPoints(100);
             }
         }
 

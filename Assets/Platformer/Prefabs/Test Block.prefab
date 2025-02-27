@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3103537199376881656}
   m_Layer: 0
   m_Name: Test Block
-  m_TagString: Untagged
+  m_TagString: Avoid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65,7 +65,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 86736c024e32fc146ad51819ab3831ae, type: 2}
+  - {fileID: 2100000, guid: b6ce5febfdaa54c4990e23287f8f83e9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -94,7 +94,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4046610383122547498}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 1992380a3a3e03d4eb2212b46f27dc88, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Brick
   - QuestionBlock
+  - Avoid
   layers:
   - Default
   - TransparentFX
